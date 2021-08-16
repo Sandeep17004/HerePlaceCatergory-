@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.here.sdk.mapviewlite.MapViewLite
+        android:id="@+id/map_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/findPlaces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSourceLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/sourceLatHint"
+        android:text="26.8464889"
+        android:theme="@style/ThemeEditText"
+        app:layout_constraintBottom_toTopOf="@+id/etDestLong"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/findPlaces" />
+
+    <EditText
+        android:id="@+id/etSourceLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin12"
+        android:hint="@string/sourceLongHint"
+        android:text="80.8429057"
+        android:theme="@style/ThemeEditText"
+        app:layout_constraintBottom_toTopOf="@+id/etDestLong"
+        app:layout_constraintStart_toEndOf="@+id/etSourceLat"
+        app:layout_constraintTop_toTopOf="@+id/findPlaces" />
+
+    <EditText
+        android:id="@+id/etDestLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/destinationLatHint"
+        android:text="19.0821978"
+        android:theme="@style/ThemeEditText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSourceLat" />
+
+    <EditText
+        android:id="@+id/etDestLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin12"
+        android:hint="@string/destinationLongHint"
+        android:text="72.7411003"
+        android:theme="@style/ThemeEditText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etDestLat"
+        app:layout_constraintTop_toBottomOf="@+id/etSourceLong" />
+
+    <Button
+        android:id="@+id/findPlaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/findPlaces"
+        app:layout_constraintBottom_toBottomOf="@+id/etSourceLong"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

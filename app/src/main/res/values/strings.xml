@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HereApplication</string>
+    <string name="invalidCoordinates">Please enter the valid coordinates</string>
+    <string name="sourceLatHint">Source Latitude</string>
+    <string name="sourceLongHint">Source Longitude</string>
+    <string name="destinationLatHint">Destination Latitude</string>
+    <string name="destinationLongHint">Destination Longitude</string>
+    <string name="findPlaces">Go</string>
+    <string name="permissionDenied">Permissions denied by user.</string>
+    <string name="routeError">Error while calculating a route:</string>
+</resources>

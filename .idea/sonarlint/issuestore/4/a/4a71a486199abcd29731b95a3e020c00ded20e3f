@@ -1,0 +1,20 @@
+
+\
+java:S1155â">Use isEmpty() to check whether the collection is empty or not.(äÛŸ–8€ä¶Ò´/
+v
+java:S1149ÿ"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(£ùŠº
+U
+java:S1854Ü"8Remove this useless assignment to local variable "dist".(§.8€ä¶Ò´/
+s
+java:S1149×"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ê¾’Ôúÿÿÿÿ8€ä¶Ò´/
+p
+java:S3776¿"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ùä«ş8€ä¶Ò´/
+}
+java:S1149í"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ˆÊı¢8€ä¶Ò´/
+u
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Äã‹Ëşÿÿÿÿ8€ä¶Ò´/
+_
+java:S1126”"AReplace this if-then-else statement by a single return statement.(ı¿¶8€ä¶Ò´/
+w
+java:S2293Ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(•ÈÖŠ8€ä¶Ò´/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏÌÍ×øÿÿÿÿ8Ä§ Ö´/
